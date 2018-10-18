@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="_001_LiveCharts.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_001_LiveCharts"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:lvc="using:LiveCharts.Uwp"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--ページを2分割にする-->
+        <StackPanel Grid.Row="0" >
+            <Grid Background="DarkSlateGray">
+                <!--見出しを配置-->
+                <TextBlock Text="　グラフ" Foreground="White"/>
+            </Grid>
+            <Grid Background="DarkGray" >
+                <!--ボタンを配置-->
+                <Button Name="Btn_Draw" Content="Draw" Click="Btn_Draw_Click"/>
+            </Grid>
+        </StackPanel>
+
+        <Grid Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <!--LiveChartを配置-->
+            <lvc:CartesianChart x:Name="LC_Graph" Series="{x:Bind Path=Sc}" />
+        </Grid>
+
+    </Grid>
+</Page>

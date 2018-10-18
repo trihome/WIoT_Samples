@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_LiveCharts", "001_LiveCharts\001_LiveCharts.csproj", "{F6DCF505-8ECD-4962-85F4-7DEC34704E36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD5BD706-2D65-4F19-A50F-47439355E518}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Debug|ARM.Build.0 = Debug|ARM
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Debug|x64.ActiveCfg = Debug|x64
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Debug|x64.Build.0 = Debug|x64
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Debug|x64.Deploy.0 = Debug|x64
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Debug|x86.ActiveCfg = Debug|x86
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Debug|x86.Build.0 = Debug|x86
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Debug|x86.Deploy.0 = Debug|x86
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Release|ARM.ActiveCfg = Release|ARM
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Release|ARM.Build.0 = Release|ARM
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Release|ARM.Deploy.0 = Release|ARM
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Release|x64.ActiveCfg = Release|x64
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Release|x64.Build.0 = Release|x64
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Release|x64.Deploy.0 = Release|x64
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Release|x86.ActiveCfg = Release|x86
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Release|x86.Build.0 = Release|x86
+		{F6DCF505-8ECD-4962-85F4-7DEC34704E36}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFF5220E-6D15-4E87-AE29-7A19BEA8C849}
+	EndGlobalSection
+EndGlobal
